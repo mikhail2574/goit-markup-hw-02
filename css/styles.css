@@ -26,6 +26,7 @@ h1{
 }
 
 .title-main{
+    color: var(--text-bold-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
