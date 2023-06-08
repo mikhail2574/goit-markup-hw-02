@@ -46,13 +46,6 @@ h2{
     background-color: var(--active-color);
 }
 
-.nav-item {
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--banner-bg);
-}
-
 .nav-item:hover,
 .nav-item:focus {
     color: var(--active-color);
@@ -61,6 +54,11 @@ h2{
 .link{
     text-decoration: none;
     color: var(--text-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    color: var(--banner-bg);
 }
 
 .logo {
@@ -73,7 +71,7 @@ h2{
     line-height: 117%;
 }
 
-.logo span{
+.logo-black{
     color: var(--text-bold-color);
 }
 
@@ -96,21 +94,12 @@ button{
     background-color: var(--active-color);
 }
 
-.navigation {
-    font-weight: 500;
-    letter-spacing: 0.02em;
-}
-
 .card-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-}
-
-.card-description{
-    line-height: 150%;
-    letter-spacing: 0.02em;
+    color: var(--banner-bg);
 }
 
 .navigation a:hover, .navigation a:active {
@@ -137,8 +126,8 @@ footer{
     color: var(--banner-color);
 }
 
-a.white {
-    color: var(--banner-color)
+.logo-white {
+    color: var(--our-team-bg);
 }
 
 .main-team {
@@ -153,12 +142,20 @@ a.white {
     font-style: normal;
 }
 
-.nav-address.list{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 .nav-address a:hover,
 .nav-address a:focus {
     color: var(--active-color);
+}
+
+.main-work-title, .main-team-title {
+    color: var(--banner-bg);
+}
+
+.footer-description {
+    color: var(--our-team-bg);
+}
+
+.p-style{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
