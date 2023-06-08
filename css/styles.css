@@ -42,15 +42,23 @@ h2{
     letter-spacing: 0.04em;
 }
 
-.main-btn:hover, main-btn:focus {
+.main-btn:hover, .main-btn:focus {
     background-color: var(--active-color);
 }
 
-.link{
-    text-decoration: none;
+.nav-item {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--banner-bg);
 }
 
-a{
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--active-color);
+}
+
+.link{
     text-decoration: none;
     color: var(--text-color);
 }
@@ -105,12 +113,6 @@ button{
     letter-spacing: 0.02em;
 }
 
-
-address a:hover,
-address a:active {
-    color: var(--active-color);
-}
-
 .navigation a:hover, .navigation a:active {
     color: var(--active-color);
     text-decoration: underline 4px solid var(--active-color);
@@ -147,3 +149,16 @@ a.white {
     background-color: var(--banner-color);
 }
 
+.nav-address {
+    font-style: normal;
+}
+
+.nav-address.list{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-address a:hover,
+.nav-address a:focus {
+    color: var(--active-color);
+}
