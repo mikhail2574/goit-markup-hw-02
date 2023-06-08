@@ -1,0 +1,121 @@
+:root {
+    --text-color: #2E2F42;
+    --active-color: #404BBF;
+    --banner-bg: #2E2F42;
+    --banner-color: #FFF;
+    --btn-bg: #4D5AE5;
+    --btn-bg-passiv: #E7E9FC;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:visited{
+    color: var(--text-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.logo span{
+    color: var(--btn-bg);
+}
+
+button{
+    cursor: pointer;
+}
+
+.filter button{
+    color: var(--btn-bg);
+    background-color: var(--btn-bg-passiv);
+    border: none;
+}
+
+.filter button:active, .filter button:hover{
+    color: var(--banner-color);
+    background-color: var(--active-color);
+}
+
+.navigation {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-description{
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+
+address a:hover,
+address a:active {
+    color: var(--active-color);
+}
+
+.navigation a:hover, .navigation a:active {
+    color: var(--active-color);
+    text-decoration: underline 4px solid var(--active-color);
+}
+
+.header-main{
+    background-color: var(--banner-bg);
+}
+
+.header-main button{
+    color: var(--banner-color);
+    background-color: var(--btn-bg);
+    border: none;
+}
+
+.header-main h1{
+    color: var(--banner-color);
+}
+
+footer{
+    background-color: var(--banner-bg);
+    color: var(--banner-color);
+}
+
+a.white {
+    color: var(--banner-color)
+}
