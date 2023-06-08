@@ -5,7 +5,7 @@
     --banner-bg: #2E2F42;
     --banner-color: #FFF;
     --btn-bg: #4D5AE5;
-    --btn-bg-passiv: #E7E9FC;
+    --btn-bg-passiv: #F4F4FD;
     --our-team-bg: #F4F4FD;
 }
 
@@ -77,19 +77,24 @@ h2{
 
 button{
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 .list{
     list-style: none;
 }
 
-.filter button{
+.portfolio-btn{
     color: var(--btn-bg);
     background-color: var(--btn-bg-passiv);
     border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.filter button:active, .filter button:hover{
+.portfolio-btn:focus, .portfolio-btn:hover{
     color: var(--banner-color);
     background-color: var(--active-color);
 }
