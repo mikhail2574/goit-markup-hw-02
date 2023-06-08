@@ -1,20 +1,19 @@
 :root {
-    --text-color: #2E2F42;
+    --text-color: #434455;
+    --text-bold-color: #2E2F42;
     --active-color: #404BBF;
     --banner-bg: #2E2F42;
     --banner-color: #FFF;
     --btn-bg: #4D5AE5;
     --btn-bg-passiv: #E7E9FC;
+    --our-team-bg: #F4F4FD;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     font-size: 16px;
-}
-
-li{
-    list-style: none;
+    background-color: var(--banner-color);
 }
 
 h1{
@@ -35,29 +34,47 @@ h2{
     text-transform: capitalize;
 }
 
+.main-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.main-btn:hover, main-btn:focus {
+    background-color: var(--active-color);
+}
+
+.link{
+    text-decoration: none;
+}
+
 a{
     text-decoration: none;
     color: var(--text-color);
 }
 
-a:visited{
-    color: var(--text-color);
-}
-
 .logo {
+    color: var(--btn-bg);
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 18px;
     letter-spacing: 0.03em;
+    line-height: 117%;
 }
 
 .logo span{
-    color: var(--btn-bg);
+    color: var(--text-bold-color);
 }
 
 button{
     cursor: pointer;
+}
+
+.list{
+    list-style: none;
 }
 
 .filter button{
@@ -79,6 +96,8 @@ button{
 .card-title{
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .card-description{
@@ -119,3 +138,12 @@ footer{
 a.white {
     color: var(--banner-color)
 }
+
+.main-team {
+    background-color: var(--our-team-bg);
+}
+
+.person-card {
+    background-color: var(--banner-color);
+}
+
